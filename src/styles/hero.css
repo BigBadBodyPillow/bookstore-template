@@ -1,0 +1,23 @@
+.hero {
+  width: 100%;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero button {
+  padding: 6px 1rem;
+  background-color: var(--button);
+  color: inherit;
+  border: 1px solid transparent;
+  cursor: pointer;
+}
+.hero button:hover {
+  opacity: 0.75;
+}
+
+.hero button:active {
+  opacity: 0.5;
+}
